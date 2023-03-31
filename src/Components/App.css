@@ -11,17 +11,11 @@
   margin: 0 auto;
 }
 
-.nav {
-  grid-area: nav;
-  background-color: lightsalmon;
-}
-
-
-
-.maincontent {
+.App-maincontent {
   grid-area: content;
   background-color: bisque;
 }
+
 
 .App-logo {
   height: 40vmin;
