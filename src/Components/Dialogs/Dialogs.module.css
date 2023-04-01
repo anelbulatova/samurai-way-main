@@ -1,8 +1,26 @@
-.maincontent {
-    grid-area: content;
-    background-color: bisque;
+
+
+.dialogs {
+    color: royalblue;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }
 
-.item {
-    color: royalblue;
+.dialogsItems {
+    padding: 10px;
 }
+
+.dialogsItems .active {
+    color: gold;
+}
+.messages {
+    padding: 10px;
+}
+.dialogsItems .dialog{
+
+}
+
+.messages .message{
+
+}
+
