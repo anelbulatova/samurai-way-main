@@ -15,7 +15,7 @@ function App() {
             <Header/>
             <Navigation/>
             <div className='App-maincontent'>
-                <Route path="/dialogs" component={Dialogs}/>
+                <Route exact path="/dialogs" component={Dialogs}/>
                 <Route path="/profile" component={Profile}/>
                 <Route path="/music" component={Profile}/>
                 <Route path="/news" component={Profile}/>
